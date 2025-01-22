@@ -21,3 +21,6 @@ if (!defined('ABSPATH')) {
 define('HB_COZYSTAY_VERSION', '1.6.0');
 define('HB_COZYSTAY_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('HB_COZYSTAY_PLUGIN_URL', plugin_dir_url(__FILE__));
+
+// Include enqueue scripts file
+require_once HB_COZYSTAY_PLUGIN_DIR . 'includes/enqueue-scripts.php';
